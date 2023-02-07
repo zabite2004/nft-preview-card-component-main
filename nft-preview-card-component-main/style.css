@@ -1,0 +1,109 @@
+/*Soft blue: hsl(215, 51%, 70%)
+- Cyan: hsl(178, 100%, 50%)
+
+### Neutral
+
+- Very dark blue (main BG): hsl(217, 54%, 11%)
+- Very dark blue (card BG): hsl(216, 50%, 16%)
+- Very dark blue (line): hsl(215, 32%, 27%)
+- White: hsl(0, 0%, 100%)
+
+## Typography
+
+### Body Copy
+
+- Font size (paragraph): 18px
+
+### Font
+
+- Family: [Outfit](https://fonts.google.com/specimen/Outfit)
+- Weights: 300, 400, 600*/
+
+body{
+    font-family: 'Outfit', sans-serif;
+    background-color: hsl(217, 54%, 11%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+  
+}
+.mainheading{
+    color: hsl(0, 0%, 100%);
+    font-size: 1.5rem;
+}
+.main-cart{
+    background-color:hsl(216, 50%, 16%);
+    display: flex;
+    
+    flex-direction: column;
+    max-width: 360px;
+    border-radius: 20px;
+    max-height: 100vh;
+    
+
+}
+.equbilirium{
+    margin: 25px 25px 0 25px;
+  width: 310px;
+  border-radius: 10px;
+}
+.paragraph{
+    font-size: 18px;
+ color:hsl(215, 51%, 70%) ;
+
+}
+
+.flex-group{
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid hsl(215, 51%, 70%) ;
+    
+}
+.author{
+    display: flex;
+    
+    align-items: center;
+
+}
+.content{
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-bottom: 25px;
+  
+}
+.clock{
+    padding-right: 5px;
+    
+}
+.ethereum{
+   padding-right: 5px;
+   
+}
+.eth{
+    padding-right:120px ;
+    color:hsl(178, 100%, 50%);
+    font-weight: bold; 
+}
+
+.author{
+    
+    padding-top: 10px;
+   
+}
+.avatar{
+ border: 1px solid white;
+ border-radius: 50%;
+    
+}
+.creation{
+    color:hsl(215, 51%, 70%) ;
+    padding-left: 20px;
+   
+}
+.name{
+    color: hsl(0, 0%, 100%);
+}
+.deadline{
+    color:hsl(215, 51%, 70%) ;
+}
